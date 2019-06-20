@@ -1,0 +1,15 @@
+{
+  "name": "postgres",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node testpg.js"
+  },
+  "installConfig": {
+    "pnp": true
+  },
+  "dependencies": {
+    "pg": "^7.11.0"
+  }
+}
