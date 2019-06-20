@@ -7,6 +7,13 @@
   "author": "gampolt <gampolt@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "pg": "^7.11.0",
     "polka": "^0.5.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "installConfig": {
+    "pnp": true
   }
 }
